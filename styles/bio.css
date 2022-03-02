@@ -294,11 +294,12 @@ a{
 }
 
 /* LANDSCAPE ON MOBILE SIZE ADJUSTMENT */
-@media (min-width: 712px) and (orientation: landscape){
+@media (min-width: 900px) and (orientation: landscape){
     /* MAY NEED ADJUSTMENTS AFTER BIO CONTENT UPDATED */
     .paragraph{
         top: -30%;
     }
+    header{background: red;}
 
 }
 
