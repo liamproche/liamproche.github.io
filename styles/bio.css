@@ -35,7 +35,7 @@ header{
 /* FOR LAYOUT */
 
 header{
-    background: purple;
+    border-bottom: 2px solid red;
 } 
 
 /* header{
@@ -293,11 +293,11 @@ a{
 }
 
 /* LANDSCAPE ON MOBILE SIZE ADJUSTMENT */
-@media (min-width: 480px) and (orientation: landscape){
+@media (max-width: 640px) and (orientation: landscape){
     /* MAY NEED ADJUSTMENTS AFTER BIO CONTENT UPDATED */
-    /* .paragraph{
+    .paragraph{
         top: -30%;
-    } */
+    }
 } 
 
 
