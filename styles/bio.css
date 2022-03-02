@@ -34,7 +34,11 @@ header{
 
 /* FOR LAYOUT */
 
- /* header{
+header{
+    background: red;
+} 
+
+/* header{
     border: 2px solid red;
 } 
  body{
@@ -299,8 +303,6 @@ a{
     .paragraph{
         top: -30%;
     }
-    header{background: red;}
-
 }
 
 
