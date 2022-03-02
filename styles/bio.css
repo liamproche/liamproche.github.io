@@ -35,7 +35,7 @@ header{
 /* FOR LAYOUT */
 
 header{
-    background: red;
+    background: green;
 } 
 
 /* header{
@@ -298,7 +298,7 @@ a{
 }
 
 /* LANDSCAPE ON MOBILE SIZE ADJUSTMENT */
-@media (min-width: 1000px) and (orientation: landscape){
+@media (min-width: 480px) and (orientation: landscape){
     /* MAY NEED ADJUSTMENTS AFTER BIO CONTENT UPDATED */
     .paragraph{
         top: -30%;
