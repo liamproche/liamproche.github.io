@@ -291,10 +291,20 @@ a{
     }
 
    /* END HEADER ADJUSTMENT */
+}
 
-
+/* LANDSCAPE ON MOBILE SIZE ADJUSTMENT */
+@media (min-width: 712px) and (orientation: landscape){
+    /* MAY NEED ADJUSTMENTS AFTER BIO CONTENT UPDATED */
+    .paragraph{
+        top: -30%;
+    }
 
 }
+
+
+/* END LANDSCAPE ON MOBILE */
+
 
 
 /* MID-SIZE SCREENS */
