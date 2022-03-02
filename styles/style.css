@@ -34,12 +34,12 @@ nav{
 body{
     font-size: 18px;
     font-family: 'Fredoka', sans-serif;
-    height: 90vh;
+    height: 75vh;
 }
 header{
     background: white;
     /* !!!!!!!!TESTING CHANGE */
-    /* height: 10vh; */
+    height: 10vh;
     display: flex;
     justify-content: flex-end;
 }
@@ -51,6 +51,7 @@ h1{
 }
 .hero{
     cursor: pointer;
+    height: 75vh;
 }
 h2{
     font-size: 3.4rem;
