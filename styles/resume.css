@@ -18,7 +18,7 @@ main{
 }
 
 .scrim{
-    background: rgba(0, 0, 0, .94);
+    background: rgba(0, 0, 0, .97);
 }
 header{
     height: 10vh;
@@ -67,14 +67,12 @@ h2 a:hover{
     cursor: pointer;
     text-decoration: underline;
 }
-.company{
-    font-size: 1.2rem;
-}
+
 .title{
     font-size: 1rem;
 }
 .dates{
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 /* END FONTS*/
@@ -171,20 +169,12 @@ a{
 .resume-primary{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    padding-left: 5%;
+    padding-left: 15%;
 }
-.dates{
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
 .resume-secondary{
     display: none;
-}
-.essential-ul li{
-    margin-top: 5%;
 }
 
 /* END GRID SECTION */
@@ -255,6 +245,22 @@ textarea{
 
 /* END CONTACT FORM */
 
+.skills-content{
+    margin-bottom: 7%;
+}
+.secondary-title{
+    font-size: 1.3rem;
+}
+.title-link{
+    color: white;
+    margin-top: 5%;
+}
+.title-link:hover{
+    text-decoration: underline;
+}
+.education-container{
+    margin-bottom: 5%;
+}
 
 @media only screen and (min-width: 480px) {
         
@@ -339,7 +345,7 @@ textarea{
         position: relative;
     }
     .contact-info h1{
-        padding: 0;
+        margin-top: 2%;
     }
     .color{
         margin: 10% 0;
@@ -362,19 +368,25 @@ textarea{
     .title{
         margin-top: 8%;
     }
-    .company{
-        font-size: 1.6rem;
-    }
 
     /* END TEXT SIZING */
 
 }
-
+.section-title{
+    font-size: 1.6rem;
+}
+.secondary-title{
+    margin-top: 5%;
+}
 
 /* LOSE FOR MOBILE */
 
 @media only screen and (max-width: 490px){
     .title-and-description{
         display: none;
+    
+    }
+    .section-title{
+        margin-top: 15%;
     }
 }
