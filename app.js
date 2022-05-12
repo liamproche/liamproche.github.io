@@ -34,17 +34,17 @@ $('.hero').on('click', ()=>{
                 $('.punctuation').text('. :-)').fadeIn();
             });
             setTimeout(nameAppear, 1000);
-            setTimeout(jobAppear, 1800);
+            setTimeout(jobAppear, 1600);
     });
 
 //NAME APPEAR EFFECT
 function nameAppear(){
-    $('.hero h2').toggleClass('second-appear');
+    $('.hero h2').css('opacity', '1');
 };
 
 //JOB TITLE APPEAR EFFECT
 function jobAppear(){
-    $('.hero h3').toggleClass('third-appear');
+    $('.hero h3').css('opacity', '1');
 };
 
 //NAV APPEAR
