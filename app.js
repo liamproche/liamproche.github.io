@@ -28,13 +28,11 @@ $($projectText).on('click', (e)=>{
 
 //LANDING PAGE OPENING SEQUENCE START
 $('.hero').on('click', ()=>{
-            console.log('clicked');
             $('.hero h1').css('pointer-events', 'none');
             $('.hero').css('cursor', 'default');
             $('.punctuation').fadeOut(()=>{
                 $('.punctuation').text('. :-)').fadeIn();
             });
-            navAppear();
             setTimeout(nameAppear, 1000);
             setTimeout(jobAppear, 1800);
     });
@@ -58,11 +56,9 @@ function navAppear(){
 
 
 //SHOW BIO PHOTO
-
 function photoSlide(){
         $('.photo-container').parent().toggleClass('photo-appear');
 }
-
 // END SHOW BIO PHOTO
 
 
