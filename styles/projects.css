@@ -240,9 +240,6 @@ a{
     font-family: 'Nunito Sans', sans-serif;
     pointer-events: none;
     padding: 15px;
-    transition: height 2s ease-in-out;
-    -webkit-transition: height 2s ease-in-out;
-    -moz-transition: height 2s ease-in-out;
     border: 2px solid white;
 }
 .project-text p{
@@ -257,16 +254,12 @@ p{
 }
 small{
     font-size: 1rem;
-    opacity: 0;
-    transition: opacity .3s ease-in;
-    -webkit-transition: opacity .3s ease-in;
-    -moz-transition: opacity .3s ease-in;
+    transition: opacity .245s ease-in;
+    -webkit-transition: opacity .245s ease-in;
+    -moz-transition: opacity .245s ease-in;
 }
 small .link-image{
     opacity: 0;
-}
-.show-description #castle-battle-link{
-    opacity: 1;
 }
 .show-description p{
     height: 200px;
